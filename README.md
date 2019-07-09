@@ -1,6 +1,6 @@
 /*
 * react native 中 art绘图教程
-* [ART绘图组件库](https://www.npmjs.com/package/react-native-tcharts)
+* [ART绘图组件库](https://github.com/laughing001/react-native-tcharts)
 
 */
 
