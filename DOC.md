@@ -40,7 +40,7 @@ ART中常用的API
 相当于提供一个画布区域，可以理解成H5中的`<Canvas>`，以及svg绘图中的`<svg>`标签，所有的绘图相关组件均要包含在该组件中。
 #### 支持的props：
 
-| Props |   Type  | Required | Decription |
+| Props |   Type  | Required | Description |
 | ----- | --------|--------- | ---------  |
 | style |  Object |    No    |Surface样式(暂支持backgroundColor)|
 | width |  Number,String |    No    |Surface宽度|
@@ -57,7 +57,7 @@ ART中常用的API
 - ### Shape
 Shape主要是通过Path来实现绘制矢量图形功能。通过Transform可以对其进行移动、缩放和旋转等操作，进一步实现图形动效。
 #### 支持的props
-| props | Type | Required | Decription |
+| props | Type | Required | Description |
 | ------ | ---- | ------ | ----- |
 | fill | String | No | Shape填充色 |
 | opacity | Number | No | Shape透明度 |
@@ -148,7 +148,7 @@ arc(x, y, rx, ry, outer, counterClockWise, rotation)
 arcTo(x, y, rx, ry, outer, counterClockWise, rotation)
 ```
 
-| Props |   Type  | Required | Decription |
+| Props |   Type  | Required | Description |
 | ----- | --------|--------- | ---------  |
 | x |  Number |    True   | 横坐标|
 | y |  Number |    True   | 纵坐标|
@@ -283,7 +283,7 @@ curve(ControlPoint1.x, ControlPoint1.y, ControlPoint2.x, ControlPoint2.y, deltaX
 - ### Text
 文本组件
 #### 支持的props
-| Props |   Type  | Required | Decription |
+| Props |   Type  | Required | Description |
 | ----- | --------|--------- | ---------  |
 | fill |  String |   NO   | 字体填充颜色 |
 | opacity |  Number |    NO   | 字体透明度|
@@ -345,7 +345,7 @@ strokeDash={[15, 10]}：绘制15像素点长度线条 间隔 10个像素点，�
 - ### Pattern
 图形填充器
 #### 支持参数
-| 参数 |   Type  | Required | Decription |
+| 参数 |   Type  | Required | Description |
 | ----- | --------|--------- | ---------  |
 | url |  String |   YES   | 填充图片url |
 | width |  Number |   YES   | 图片宽度 |
@@ -548,7 +548,7 @@ cx, xy: 原点坐标(以该点位圆心，rx，ry为半径画圆为径向渐变�
 - ### ClippingRectangle
 控制图形的显示区域（可以对绘制图片做剪裁）
 #### 支持props
-| 参数 |   Type  | Required | Decription |
+| 参数 |   Type  | Required | Description |
 | ----- | --------|--------- | ---------  |
 | width |  Number |   YES   | 剪裁区域的宽度 |
 | height |  Number |   YES   | 剪裁区域的高度 |
